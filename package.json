@@ -1,0 +1,19 @@
+{
+  "name": "paystack-node",
+  "version": "1.0.0",
+  "description": "A NodeJS wrapper for Paystack API",
+  "main": "lib/paystack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "paystack",
+    "API",
+    "payments",
+  ],
+  "author": {
+    "name": "Wale Eseyin",
+    "email": "eseyinwale@gmail.com"
+  },
+  "license": "MIT"
+}
