@@ -9,11 +9,15 @@
   "keywords": [
     "paystack",
     "API",
-    "payments",
+    "payments"
   ],
   "author": {
     "name": "Wale Eseyin",
     "email": "eseyinwale@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.72.0",
+    "underscore": "^1.8.3"
+  }
 }
