@@ -22,9 +22,7 @@ To initialize a paystack connection, First, get your developer Authorization Key
 
 ```js
 
-var Paystack = require('paystack-node').config({
-	apiKey: 'sk_authorizationKeyFromPaystack'
-});
+var Paystack = require('paystack-node');
 ```
 
 Resources(Customer. Transaction, Plan, Subscription, Page) are accessed via an instance of `Paystack`. And each resource method accepts a callback function as its last argument. The `callback` function returns two JSON objects -- `error` and `body`, as responses from the API call.
@@ -34,7 +32,7 @@ Creating a Customer
 -----
 
 ```js
-var paystack = Paystack.with(apiKey);
+var paystack = Paystack.with('sk_authorizationKeyFromPaystack');
 
 paystack.customer.create({
 	"email": "bojack@horsinaround.com"
