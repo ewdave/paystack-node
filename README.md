@@ -1,5 +1,7 @@
 # paystack-node
 
+> This is a work in progress. The API is incomplete. Do not use this project for anything yet.
+
 A Simple NodeJS wrapper for [Paystack's] (https://paystack.co).
 
 ### Features
@@ -11,12 +13,12 @@ A Simple NodeJS wrapper for [Paystack's] (https://paystack.co).
 ### Installation
 
 ```
-npm install paystack-node
+ $ npm install paystack-node
 ```
 
 ### Usage
 
-First, get your developer Authorization key from [Paystack] (https://paystack.co). Then require the `paystack-node` library with a call to `config` to initialize a paystack connection with your given `authorization-key`.
+To initialize a paystack connection, First, get your developer Authorization Key from [Paystack] (https://paystack.co), then import the `paystack-node` library with a call to `with(apiKey)`, passing in the given `Authorization Key`.
 
 ```js
 
@@ -83,3 +85,5 @@ paystack.transaction.verify(Di9vX8MEk85usKEpVDtD, function(err, body) {
 	console.log(body);
 });
 ```
+
+> **TODO:** Implement an example express app using this wrapper library.
