@@ -2,7 +2,7 @@
 
 > This is a work in progress. The API is incomplete. Do not use this project for anything yet.
 
-A Simple NodeJS wrapper for [Paystack's] (https://paystack.co).
+A Simple NodeJS wrapper for [Paystack's] (https://paystack.co) API.
 
 ### Features
 
@@ -18,7 +18,7 @@ A Simple NodeJS wrapper for [Paystack's] (https://paystack.co).
 
 ### Usage
 
-To initialize a paystack connection, First, get your developer Authorization Key from [Paystack] (https://paystack.co), then import the `paystack-node` library with a call to `with(apiKey)`, passing in the given `Authorization Key`.
+To initialize a paystack connection, First, get your developer Authorization Key from [Paystack] (https://paystack.co), then import the `paystack-node` library.
 
 ```js
 
